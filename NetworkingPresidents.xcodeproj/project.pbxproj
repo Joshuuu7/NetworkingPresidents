@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		429AFE7E1FC26A6900DA3B5E /* PresidentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429AFE7C1FC26A6900DA3B5E /* PresidentCell.swift */; };
+		429AFE851FC283DC00DA3B5E /* ImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429AFE841FC283DC00DA3B5E /* ImageProvider.swift */; };
+		429AFE8D1FC2CA7900DA3B5E /* AddPresidentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429AFE8C1FC2CA7900DA3B5E /* AddPresidentViewController.swift */; };
 		42A7AF321FA9134500253B55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A7AF311FA9134500253B55 /* AppDelegate.swift */; };
 		42A7AF341FA9134500253B55 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A7AF331FA9134500253B55 /* MasterViewController.swift */; };
 		42A7AF361FA9134500253B55 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A7AF351FA9134500253B55 /* DetailViewController.swift */; };
 		42A7AF391FA9134500253B55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A7AF371FA9134500253B55 /* Main.storyboard */; };
 		42A7AF3B1FA9134500253B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A7AF3A1FA9134500253B55 /* Assets.xcassets */; };
 		42A7AF3E1FA9134500253B55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A7AF3C1FA9134500253B55 /* LaunchScreen.storyboard */; };
+		42C05CCB1FA91E2400E52380 /* Presidents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C05CCA1FA91E2400E52380 /* Presidents.swift */; };
+		42C05CCF1FABBCC100E52380 /* SearchFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C05CCE1FABBCC100E52380 /* SearchFooter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		42A7AF2E1FA9134500253B55 /* Presidents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Presidents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		429AFE7C1FC26A6900DA3B5E /* PresidentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresidentCell.swift; sourceTree = "<group>"; };
+		429AFE841FC283DC00DA3B5E /* ImageProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageProvider.swift; sourceTree = "<group>"; };
+		429AFE8C1FC2CA7900DA3B5E /* AddPresidentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPresidentViewController.swift; sourceTree = "<group>"; };
+		42A7AF2E1FA9134500253B55 /* NetworkingPresidents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkingPresidents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42A7AF311FA9134500253B55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42A7AF331FA9134500253B55 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		42A7AF351FA9134500253B55 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +32,8 @@
 		42A7AF3A1FA9134500253B55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42A7AF3D1FA9134500253B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42A7AF3F1FA9134500253B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42C05CCA1FA91E2400E52380 /* Presidents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presidents.swift; sourceTree = "<group>"; };
+		42C05CCE1FABBCC100E52380 /* SearchFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFooter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +58,7 @@
 		42A7AF2F1FA9134500253B55 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				42A7AF2E1FA9134500253B55 /* Presidents.app */,
+				42A7AF2E1FA9134500253B55 /* NetworkingPresidents.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,13 +66,18 @@
 		42A7AF301FA9134500253B55 /* Presidents */ = {
 			isa = PBXGroup;
 			children = (
+				429AFE841FC283DC00DA3B5E /* ImageProvider.swift */,
 				42A7AF311FA9134500253B55 /* AppDelegate.swift */,
+				42C05CCE1FABBCC100E52380 /* SearchFooter.swift */,
 				42A7AF331FA9134500253B55 /* MasterViewController.swift */,
 				42A7AF351FA9134500253B55 /* DetailViewController.swift */,
+				429AFE8C1FC2CA7900DA3B5E /* AddPresidentViewController.swift */,
+				42C05CCA1FA91E2400E52380 /* Presidents.swift */,
 				42A7AF371FA9134500253B55 /* Main.storyboard */,
 				42A7AF3A1FA9134500253B55 /* Assets.xcassets */,
 				42A7AF3C1FA9134500253B55 /* LaunchScreen.storyboard */,
 				42A7AF3F1FA9134500253B55 /* Info.plist */,
+				429AFE7C1FC26A6900DA3B5E /* PresidentCell.swift */,
 			);
 			path = Presidents;
 			sourceTree = "<group>";
@@ -70,9 +85,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		42A7AF2D1FA9134500253B55 /* Presidents */ = {
+		42A7AF2D1FA9134500253B55 /* NetworkingPresidents */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42A7AF421FA9134500253B55 /* Build configuration list for PBXNativeTarget "Presidents" */;
+			buildConfigurationList = 42A7AF421FA9134500253B55 /* Build configuration list for PBXNativeTarget "NetworkingPresidents" */;
 			buildPhases = (
 				42A7AF2A1FA9134500253B55 /* Sources */,
 				42A7AF2B1FA9134500253B55 /* Frameworks */,
@@ -82,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = Presidents;
+			name = NetworkingPresidents;
 			productName = Presidents;
-			productReference = 42A7AF2E1FA9134500253B55 /* Presidents.app */;
+			productReference = 42A7AF2E1FA9134500253B55 /* NetworkingPresidents.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,11 +114,12 @@
 				TargetAttributes = {
 					42A7AF2D1FA9134500253B55 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 58V3WNR72P;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 42A7AF291FA9134500253B55 /* Build configuration list for PBXProject "Presidents" */;
+			buildConfigurationList = 42A7AF291FA9134500253B55 /* Build configuration list for PBXProject "NetworkingPresidents" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -116,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				42A7AF2D1FA9134500253B55 /* Presidents */,
+				42A7AF2D1FA9134500253B55 /* NetworkingPresidents */,
 			);
 		};
 /* End PBXProject section */
@@ -139,8 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				429AFE7E1FC26A6900DA3B5E /* PresidentCell.swift in Sources */,
+				42C05CCF1FABBCC100E52380 /* SearchFooter.swift in Sources */,
+				429AFE8D1FC2CA7900DA3B5E /* AddPresidentViewController.swift in Sources */,
+				42C05CCB1FA91E2400E52380 /* Presidents.swift in Sources */,
 				42A7AF361FA9134500253B55 /* DetailViewController.swift in Sources */,
 				42A7AF341FA9134500253B55 /* MasterViewController.swift in Sources */,
+				429AFE851FC283DC00DA3B5E /* ImageProvider.swift in Sources */,
 				42A7AF321FA9134500253B55 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,9 +285,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 58V3WNR72P;
 				INFOPLIST_FILE = Presidents/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.niu.cs.z1682720.Presidents;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.niu.cs.z1682720.NetworkingPresidents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -276,9 +298,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 58V3WNR72P;
 				INFOPLIST_FILE = Presidents/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.niu.cs.z1682720.Presidents;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.niu.cs.z1682720.NetworkingPresidents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -287,7 +310,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		42A7AF291FA9134500253B55 /* Build configuration list for PBXProject "Presidents" */ = {
+		42A7AF291FA9134500253B55 /* Build configuration list for PBXProject "NetworkingPresidents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42A7AF401FA9134500253B55 /* Debug */,
@@ -296,13 +319,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42A7AF421FA9134500253B55 /* Build configuration list for PBXNativeTarget "Presidents" */ = {
+		42A7AF421FA9134500253B55 /* Build configuration list for PBXNativeTarget "NetworkingPresidents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42A7AF431FA9134500253B55 /* Debug */,
 				42A7AF441FA9134500253B55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

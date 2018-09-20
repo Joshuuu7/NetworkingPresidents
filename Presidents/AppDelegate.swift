@@ -56,6 +56,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         }
         return false
     }
-
+       
+}
+/// Allows for the use of all device orientations for every "UINavigationController"
+extension UINavigationController {
+    override open var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        get {
+            return .all
+        }
+    }
 }
 
+/// Allows for the use of all device orientations for every "UISplitViewController"
+extension UISplitViewController {
+    override open var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        get {
+            return .all
+        }
+    }
+}

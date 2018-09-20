@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "42A7AF2D1FA9134500253B55"
-               BuildableName = "Presidents.app"
-               BlueprintName = "Presidents"
-               ReferencedContainer = "container:Presidents.xcodeproj">
+               BuildableName = "NetworkingPresidents.app"
+               BlueprintName = "NetworkingPresidents"
+               ReferencedContainer = "container:NetworkingPresidents.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "42A7AF2D1FA9134500253B55"
-            BuildableName = "Presidents.app"
-            BlueprintName = "Presidents"
-            ReferencedContainer = "container:Presidents.xcodeproj">
+            BuildableName = "NetworkingPresidents.app"
+            BlueprintName = "NetworkingPresidents"
+            ReferencedContainer = "container:NetworkingPresidents.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "42A7AF2D1FA9134500253B55"
-            BuildableName = "Presidents.app"
-            BlueprintName = "Presidents"
-            ReferencedContainer = "container:Presidents.xcodeproj">
+            BuildableName = "NetworkingPresidents.app"
+            BlueprintName = "NetworkingPresidents"
+            ReferencedContainer = "container:NetworkingPresidents.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "42A7AF2D1FA9134500253B55"
-            BuildableName = "Presidents.app"
-            BlueprintName = "Presidents"
-            ReferencedContainer = "container:Presidents.xcodeproj">
+            BuildableName = "NetworkingPresidents.app"
+            BlueprintName = "NetworkingPresidents"
+            ReferencedContainer = "container:NetworkingPresidents.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
